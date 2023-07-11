@@ -1,6 +1,62 @@
 import React from "react";
-import { Box, HStack, Pressable, Icon, Avatar } from "native-base";
+import { Box, HStack, Pressable, Icon, Avatar, FlatList } from "native-base";
 import { Feather } from '@expo/vector-icons';
+import Storys from "../components/Storys";
+
+
+
+const data = [
+  {
+    id: "bd7acbea-c1b1-46c2-aed5-3ad53abb28ba",
+    fullname: "Aafreen Khan",
+    timeStamp: "12:47 pm",
+    recentText: "Good Day!",
+    avatarUrl: "httpa://images.pixels.com/photos/220453/pixels-photo-220453.jpeg?auto=compress&cs=tinys"
+  },
+  {
+    id: "cd7acbea-c1b1-46c2-aed5-3ad53abb28bb",
+    fullname: "John Doe",
+    timeStamp: "2:30 pm",
+    recentText: "Hello World!",
+    avatarUrl: "httpa://images.pixels.com/photos/220454/pixels-photo-220454.jpeg?auto=compress&cs=tinys"
+  },
+  {
+    id: "dd7acbea-c1b1-46c2-aed5-3ad53abb28bc",
+    fullname: "Jane Smith",
+    timeStamp: "4:15 pm",
+    recentText: "How are you doing?",
+    avatarUrl: "httpa://images.pixels.com/photos/220455/pixels-photo-220455.jpeg?auto=compress&cs=tinys"
+  },
+  {
+    id: "ed7acbea-c1b1-46c2-aed5-3ad53abb28bd",
+    fullname: "Bob Johnson",
+    timeStamp: "6:00 pm",
+    recentText: "What's up?",
+    avatarUrl: "httpa://images.pixels.com/photos/220456/pixels-photo-220456.jpeg?auto=compress&cs=tinys"
+  },
+  {
+    id: "fd7acbea-c1b1-46c2-aed5-3ad53abb28be",
+    fullname: "Sarah Lee",
+    timeStamp: "8:45 pm",
+    recentText: "Nice to meet you!",
+    avatarUrl: "httpa://images.pixels.com/photos/220457/pixels-photo-220457.jpeg?auto=compress&cs=tinys"
+  },
+  {
+    id: "gd7acbea-c1b1-46c2-aed5-3ad53abb28bf",
+    fullname: "David Chen",
+    timeStamp: "10:30 pm",
+    recentText: "How's it going?",
+    avatarUrl: "httpa://images.pixels.com/photos/220458/pixels-photo-220458.jpeg?auto=compress&cs=tinys"
+  },
+  {
+    id: "hd7acbea-c1b1-46c2-aed5-3ad53abb28bg",
+    fullname: "Emily Wong",
+    timeStamp: "1:15 am",
+    recentText: "Good night!",
+    avatarUrl: "httpa://images.pixels.com/photos/220459/pixels-photo-220459.jpeg?auto=compress&cs=tinys"
+  },
+  // adicione mais objetos aqui conforme necessário
+];
 
 export default function Home() {
   return (
@@ -16,35 +72,49 @@ export default function Home() {
             />
           </Pressable>
         </Box>
-<Box>
+
+<Box rounded="md" flexDir="row" alignItems="center">
 
 <Pressable>
+
 <Icon
-
-
 as={Feather}
 name="bell"
 size={7}
 color="#000"
+marginRight={4}
+
 
 />
-
-
 </Pressable>
 
 <Pressable>
 
 <Avatar
-source={{uri: "      " }}
-
-
+  source={{ uri: 'https://raw.githubusercontent.com/herondi/Feed-interface/master/src/img/jobs.jpg' }}
+  height={12}
+  width={12}
 />
-
 </Pressable>
-
 </Box>
 
       </HStack>
+
+      <Box paddingX={4}>
+
+
+      <FlatList
+
+horizontal={true}
+data={data}
+renderItem={ ({item}) => <Storys data={item}/> }
+showsHorizontalScrollIndicator={false}
+
+
+
+/>
+      </Box>
+
     </Box>
   );
 }
