@@ -11,49 +11,49 @@ const data = [
     fullname: "Aafreen Khan",
     timeStamp: "12:47 pm",
     recentText: "Good Day!",
-    avatarUrl: "httpa://images.pixels.com/photos/220453/pixels-photo-220453.jpeg?auto=compress&cs=tinys"
+    avatarUrl: "https://github.com/herondi/Feed-interface/blob/56361b927c7c03c7e268b7e43defcec00a0ea11f/src/img/cat-07.jpg?raw=true"
   },
   {
     id: "cd7acbea-c1b1-46c2-aed5-3ad53abb28bb",
     fullname: "John Doe",
     timeStamp: "2:30 pm",
     recentText: "Hello World!",
-    avatarUrl: "httpa://images.pixels.com/photos/220454/pixels-photo-220454.jpeg?auto=compress&cs=tinys"
+    avatarUrl: "https://github.com/herondi/Feed-interface/blob/56361b927c7c03c7e268b7e43defcec00a0ea11f/src/img/head-04.jpg?raw=true"
   },
   {
     id: "dd7acbea-c1b1-46c2-aed5-3ad53abb28bc",
     fullname: "Jane Smith",
     timeStamp: "4:15 pm",
     recentText: "How are you doing?",
-    avatarUrl: "httpa://images.pixels.com/photos/220455/pixels-photo-220455.jpeg?auto=compress&cs=tinys"
+    avatarUrl: "https://github.com/herondi/Feed-interface/blob/56361b927c7c03c7e268b7e43defcec00a0ea11f/src/img/man-05.jpg?raw=true"
   },
   {
     id: "ed7acbea-c1b1-46c2-aed5-3ad53abb28bd",
     fullname: "Bob Johnson",
     timeStamp: "6:00 pm",
     recentText: "What's up?",
-    avatarUrl: "httpa://images.pixels.com/photos/220456/pixels-photo-220456.jpeg?auto=compress&cs=tinys"
+    avatarUrl: "https://github.com/herondi/Feed-interface/blob/56361b927c7c03c7e268b7e43defcec00a0ea11f/src/img/mask-06.jpg?raw=true"
   },
   {
     id: "fd7acbea-c1b1-46c2-aed5-3ad53abb28be",
     fullname: "Sarah Lee",
     timeStamp: "8:45 pm",
     recentText: "Nice to meet you!",
-    avatarUrl: "httpa://images.pixels.com/photos/220457/pixels-photo-220457.jpeg?auto=compress&cs=tinys"
+    avatarUrl: "https://github.com/herondi/Feed-interface/blob/56361b927c7c03c7e268b7e43defcec00a0ea11f/src/img/smile-02.jpg?raw=true"
   },
   {
     id: "gd7acbea-c1b1-46c2-aed5-3ad53abb28bf",
     fullname: "David Chen",
     timeStamp: "10:30 pm",
     recentText: "How's it going?",
-    avatarUrl: "httpa://images.pixels.com/photos/220458/pixels-photo-220458.jpeg?auto=compress&cs=tinys"
+    avatarUrl: "https://github.com/herondi/Feed-interface/blob/56361b927c7c03c7e268b7e43defcec00a0ea11f/src/img/woman-01.jpg?raw=true"
   },
   {
     id: "hd7acbea-c1b1-46c2-aed5-3ad53abb28bg",
     fullname: "Emily Wong",
     timeStamp: "1:15 am",
     recentText: "Good night!",
-    avatarUrl: "httpa://images.pixels.com/photos/220459/pixels-photo-220459.jpeg?auto=compress&cs=tinys"
+    avatarUrl: "https://github.com/herondi/Feed-interface/blob/56361b927c7c03c7e268b7e43defcec00a0ea11f/src/img/woman-03.jpg?raw=true"
   },
   // adicione mais objetos aqui conforme necessário
 ];
